@@ -8,7 +8,12 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 
 
+def do_math():
+    return 1 + 2
+
+
 def main():
+    print do_math()
     print "This is an example of a file that does work"
     print "There is another line that was added in the pull request"
 
