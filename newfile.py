@@ -10,6 +10,7 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 
 def main():
     print "This is an example of a file that does work"
+    print "There is another line that was added in the pull request"
 
 
 if __name__ == '__main__':
