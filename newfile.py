@@ -1,0 +1,16 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from __future__ import unicode_literals
+import logging
+
+
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+
+
+def main():
+    print "This is an example of a file that does work"
+
+
+if __name__ == '__main__':
+    main()
