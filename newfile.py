@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(message)s")
 
 
 def do_math():
-    return 1 + 2
+    return 1 + 3
 
 
 def main():
